@@ -22,7 +22,6 @@ class Migration(migrations.Migration):
                 ('phone', models.CharField(max_length=15)),
                 ('address', models.CharField(max_length=50)),
                 ('city', models.CharField(max_length=50)),
-                ('zipcode', models.CharField(max_length=6)),
             ],
         ),
     ]
